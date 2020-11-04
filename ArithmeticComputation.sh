@@ -24,3 +24,9 @@ Dic[1]=$res1
 Dic[2]=$res2
 Dic[3]=$res3
 Dic[4]=$res4
+
+for((i=1;i<5;i++))
+do
+	arr[$i]=${Dic[$i]}
+done
+echo "Values are:${arr[*]}"
