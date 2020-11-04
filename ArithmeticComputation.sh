@@ -15,3 +15,6 @@ echo "result2:$res2"
 
 res3=$((c+a/b))
 echo "result3:$res3"
+
+res4=$((a%b+c))
+echo "result4:$res4"
